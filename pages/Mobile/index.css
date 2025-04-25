@@ -1,0 +1,153 @@
+.mobile__padding{
+    width: 100%;
+    padding: 0 10%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile__container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+    z-index: 2;
+}
+
+.mobile__background {
+    position: absolute;
+    z-index: -1;
+    background-color: #ee5a36;
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
+    border-radius: 0 0 30px 30px;
+}
+
+.mobile__phone__left{
+    width: 30%;
+    height: 100%;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.4));
+}
+
+.mobile__phone__left img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: mobile_rotate 10s linear infinite reverse;
+}
+
+@keyframes mobile_rotate{
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50%{
+        transform: rotate(-5deg) scale(1.05);
+    }
+}
+
+.mobile__texts__center{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobile__texts__center h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.mobile__texts__center__images{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mobile__texts__center__images i{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.mobile__texts__center img{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.mobile__rate__right{
+    width: 35%;
+    height: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mobile__rate__right__pizza img{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    right: -5%;
+    width: 120px;
+    height: 120px;
+    animation: pizzaRotate 10s linear infinite reverse;
+}
+
+@keyframes pizzaRotate{
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(360deg) scale(1.2);
+    }
+}
+
+.mobile__rate__playstore{
+    width: 40%;
+    height: 70%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.mobile__rate__playstore img{
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.mobile__rate__stars i{
+    color: #FCB500;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.mobile__rate__playstore span{
+    font-size: 1rem;
+    font-weight: 800;
+}

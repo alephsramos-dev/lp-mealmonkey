@@ -1,0 +1,110 @@
+.bag__padding{
+    padding: 0 10%;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bag__container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bag__title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bag__title h1{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.bag__title b{
+    color: #ee5a36;
+    font-weight: 900;
+}
+
+.bag__cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bag__card{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bag__card__img{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    z-index: -1;
+    position: relative;
+    border: 3px dashed #25A960;
+}
+
+.bag__card__img i{
+    position: absolute;
+    z-index: 2;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFB800;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 2px dashed #ee5a36;
+    top: 0%;
+    right: 0;
+}
+
+@keyframes bag_escale {
+    0%{
+        transform: scale(1) rotate(0deg);
+    }
+
+    50%{
+        transform: scale(1.05) rotate(-10deg);
+    }
+}
+
+.bag__card__img img{
+    width: 100%;
+    object-fit: cover;
+    animation: bag_escale 4s linear infinite alternate-reverse;
+}
+
+.bag__card h3{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #25A960;
+}
+
+.bag__card p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}

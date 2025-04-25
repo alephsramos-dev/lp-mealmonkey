@@ -1,0 +1,215 @@
+.home__padding{
+    height: 88vh;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__container__left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home__left__titles{
+    width: 100%;
+}
+
+.home__left__titles h1{
+    font-size: 4.3rem;
+    font-weight: 100%;
+    font-weight: 500;
+    font-family: 'Navitism', sans-serif;
+}
+
+.home__left__titles b{
+    color: #ee5a36;
+}
+
+.home__left__perfil{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.home__left__perfil img{
+    width: 12%;
+    background-color: #ee5a36;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home__left__perfil p{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.home__left__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    gap: 10px;
+}
+
+.home__left__btn__one{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home__left__btn__one button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #25A960;
+    font-weight: 500;
+}
+
+.home__left__btn__one hr{
+    width: 10%;
+    transform: rotate(90deg);
+    border: none;
+    height: 1px;
+    background-color: #fff;
+}
+
+.home__left__btn__two{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 70%;
+}
+
+.home__left__btn__two i {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(270deg);
+    color: #ee5a36;
+    box-shadow: 0 0 5px #25A96060;
+}
+
+.home__container__center{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__center__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.home__center__img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__center__img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.home__container__right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__right__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
+
+.home__right__item__img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__right__item__img i{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #ee5a36;
+    box-shadow: 0 0 10px #25A96040;
+    font-size: 1.4rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home__right__item__texts{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home__right__item__texts h2{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #25A960;
+}
+
+.home__right__item__texts p{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
